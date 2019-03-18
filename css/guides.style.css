@@ -3,12 +3,7 @@
     position: absolute;
     z-index:1000; 
     }
-  .linkcolors {
-    text-decoration: none !important;
-    }
-    .linkcolors:hover{
-    cursor: pointer;
-    }
+  
    .section1 {
     background-image: url("../img/our_team2.jpeg");
     background-size: cover;
@@ -66,7 +61,7 @@
     box-shadow: 2px 2px 20px 1px rgba(194,194,194,0.89);
     z-index: 100;
     }
-    hr {
+    .hr-short {
     border: 1px solid;
     background-color:#a62d3d;
     width:7%;
