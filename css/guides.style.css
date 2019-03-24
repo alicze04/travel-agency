@@ -3,9 +3,11 @@
     position: absolute;
     z-index:1000; 
     }
-  
+    .nav-links {
+    text-decoration: none !important;
+      }
    .section1 {
-    background-image: url("../img/our_team2.jpeg");
+    background-image: url("../img_travel_agency/our_team2.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

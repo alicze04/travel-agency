@@ -2,18 +2,20 @@
     background-color:white;
     font-family: 'Open Sans', sans-serif;
     }
-    #headerbar {
-    position: absolute;
-    z-index:1000; 
+    .navbar {
+    position:absolute;
+    z-index: 10000;
+    width: 100%;
+    left:150px;
     }
     .navbar-toggler{
     font-size: 40px;
+    z-index: 1000;
     }  
     .nav-link{
     font-size: 22px;
     color:#f8f9fa;
     text-decoration: none !important;
-    position:absolute;
     z-index: 10000;
     }
     .nav-link:hover{
@@ -21,6 +23,9 @@
     }
     .nav-item{
     padding-right:4px;
+    }
+    .fa-bars {
+    z-index: 1000;
     }
     .navbar-text{
     color:#f8f9fa;
@@ -30,14 +35,14 @@
     font-size:18px;
     }
     #hero-image {
-    background-image: url("../img/ruins.jpeg");
+    background-image: url("../img_travel_agency/ruins.jpeg"); 
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     height:370px;
     width: 100%;
-    position: relative;
+    position: relative; 
     z-index:10;
     }
     #hero-image-color {
@@ -52,33 +57,36 @@
     margin-top: 1.9rem;
     text-align: center;
     }
-    .intro_section_headline {
-    position: absolute;
-    top:75px;
+     .intro_section_headline {
+    /* position: absolute;
+    top:70px; */
     z-index:100000;
     }
     .navbar-toggler{
-        font-size: 40px;
+    font-size: 40px;
       }
-      
-      .nav-link{
-        font-size: 22px;
-        color:#f8f9fa;
-        text-decoration: none !important;
-      }
-      .nav-link:hover{
-        color:#f8f9fa;  
-      }
-      .nav-item{
-        padding-right:4px;
-      }
-      .navbar-text{
-        color:#f8f9fa;
-        font-size: 20px;
-      }
-      .navbar-text i {
-        font-size:18px;
-      }
+    .nav-link{
+    font-size: 22px;
+    color:#f8f9fa;
+    text-decoration: none !important;
+    }
+    .nav-link:hover{
+    color:#f8f9fa;  
+    }
+    .nav-item{
+    padding-right:4px;
+    }
+    .navbar-text{
+    color:#f8f9fa;
+    font-size: 20px;
+   }
+    .navbar-text i {
+    font-size:18px;
+    }
+    .img-ruins {
+    width: 350px;
+    height: 270px;
+    }
     .card {
     transition: transform 0.7s;
     }
@@ -134,14 +142,83 @@
     background-color:#354444;
     opacity: 0.9;
     }
+    #footer-hr {
+      background-color:#244930;
+    }
+    .footer-links {
+    text-decoration: none !important;
+    }
 
     @media only screen and (max-width: 670px) {
     .gallery-button .text-lead {
     font-size: 15px;
     }
      }
-     @media only screen and (max-width: 670px) {
-    .text-lead {
-        font-size: 45px;
+     
+     
+    @media only screen and  (max-width: 260px) and (min-width: 0px) {
+    #hero-image-header {
+    font-size: 18px;
     }
-}
+     }
+
+    @media only screen and  (max-width: 430px) and (min-width: 260px) {
+  #hero-image-header {
+  font-size: 25px;
+  }
+   }
+  @media only screen and  (max-width: 695px) and (min-width: 430px) {
+    #hero-image-header {
+    font-size: 40px;
+    }
+  }
+  @media only screen and  (max-width: 750px) and (min-width: 695px) {
+    #hero-image-header {
+    font-size: 50px;
+    }
+  }
+  @media only screen and  (max-width: 950px) and (min-width: 750px) {
+    #hero-image-header {
+    font-size: 60px;
+    }
+  }
+
+  @media only screen and  (max-width: 485px) and (min-width: 0px) {
+    #hero-image-subtext {
+    font-size: 10px;
+    }
+  }
+  @media only screen and  (max-width: 695px) and (min-width: 485px) {
+    #hero-image-subtext {
+    font-size: 15px;
+    }
+  }
+  @media only screen and  (max-width: 485px) and (min-width: 0px) {
+    div#hero-image {
+      height: 210px;
+      }
+    }
+    @media only screen and  (max-width: 617px) and (min-width: 470px) {
+    div#hero-image {
+    height: 260px;
+        }
+      }
+    @media only screen and  (max-width: 750px) and (min-width: 617px) {
+    div#hero-image {
+    height: 260px;
+       }
+     }
+
+  /* @media only screen and  (max-width: 752px) and (min-width: 380px) {
+    .img-ruins {
+      height:320px;
+      width:650px;
+    }
+  }
+  @media only screen and  (max-width: 1400px) and (min-width: 1107px) {
+    .img-ruins {
+      height:520px;
+      width:950px;
+    }
+  } */
+

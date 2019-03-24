@@ -5,7 +5,7 @@ body {
 
 #heroimage {
   font-family: 'Roboto Slab', serif; 
-  background-image: url("../img/hero-image2_resized.jpeg");
+  background-image: url("../img_travel_agency/hero-image2_resized.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -130,7 +130,7 @@ padding-right: 0;
   padding-left:0;
 }
 .parallax {
-background-image: url("../img/find_yourself2.jpeg");
+background-image: url("../img_travel_agency/find_yourself2.jpeg");
 height:300px;
 background-attachment: fixed;
 background-position: center;
@@ -174,7 +174,9 @@ position: relative;
 .footer-links {
   text-decoration: none !important;
 }
-
+#footer-hr {
+  background-color: #244930;
+}
 @media only screen and (max-width: 734px) {
     .intro-head {
       font-size: 30px;
@@ -213,9 +215,7 @@ position: relative;
 .navbar-text i {
   font-size:18px;
 }
-#footer-logo {
-  size:35px;
-}
+
 
 @media (min-width: 34em) {
     .card-columns {
